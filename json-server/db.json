@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men"
+    },
+    {
+      "id": 2,
+      "name": "Women"
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "name": "Clothing",
+      "categoryId": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Accessories",
+      "categoryId": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Handbags",
+      "categoryId": 2
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Tops",
+      "sectionId": 1
+    },
+    {
+      "id": 2,
+      "name": "Bottoms",
+      "sectionId": 1
+    },
+    {
+      "id": 3,
+      "name": "Pants",
+      "sectionId": 1
+    }
+  ],
+  "products": []
+}
